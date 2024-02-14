@@ -1,9 +1,21 @@
 import React from 'react'
+import Navbar from './Components/Navbar'
+import './index.css'
+//import Dropdown from './Components/Dropdown'
+// import Banner from './Components/Banner'
+//import Banner1 from './Components/Banner1'
+
+
 
 export default function App() {
   return (
     <div>
-      <h1 className='text-red-500 font-extrabold'>Hii There</h1>
+      
+      <Navbar/>  
+     
+      
+      
+
     </div>
   )
 }
